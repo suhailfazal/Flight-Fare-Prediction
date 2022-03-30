@@ -1,5 +1,4 @@
 import pickle
-
 import pandas as pd
 from flask import Flask, request, render_template
 from flask_cors import cross_origin
@@ -344,7 +343,8 @@ def predict():
             s_Kolkata,
             s_Mumbai,
             d_Cochin,
-            d_Delhi,
+
+            d_Hyderabad,
             d_Hyderabad,
             d_Kolkata,
             d_New_Delhi
